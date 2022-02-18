@@ -1,6 +1,11 @@
 # poly-Ai
 ## Project Name - API INTEGRATION
 
+## Deployment link
+- https://polynomial-api.netlify.app/
+- Frontend part has been hosted in netlify and backend part in heroku
+- backend is hosted in - https://polynomial-api.herokuapp.com/pastehere
+
 ## Demo Video
 
 - https://youtu.be/XybQBzEVkPY
