@@ -13,7 +13,7 @@ app.use(express.urlencoded({limit: "30mb", extended: true}));   //to parse urlen
 app.use(cors());  //Express allows you to configure and manage an HTTP server to access resources from the same domain.But when we need to access from different domain we use cors...CORS is a browser security feature that restricts cross-origin HTTP requests with other servers and specifies which domains access your resources.
 
 app.get('/', (req,res) => {
-    res.send("Hello go to /posts");
+    res.send("Hello go to /pastehere");
 })
 const PORT = process.env.PORT || 5000;
 //mongoose connection
