@@ -120,6 +120,6 @@ This is the list of things you need to use the software and how to install them.
 
 ![My snippets](https://user-images.githubusercontent.com/66401984/154605554-c9daaaf2-237d-46af-bf10-b201f67c3926.png)
 
--how encrypted data is store in database
+-how encrypted data is store in database(messsage field in collection)
 
 ![encrypted data](https://user-images.githubusercontent.com/66401984/154615279-293f8d11-7b3e-445e-8bb4-ba51eb78e4c4.png)
