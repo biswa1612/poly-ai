@@ -19,21 +19,16 @@ const Details = () => {
         dispatch(Snippet(id));
         navigate('/pastehere/history');
     }
+    
     useEffect(() => {
-        var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
-          '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|'+ // domain name
-          '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
-          '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
-          '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
-          '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
-
-          if(pattern.test(detail)){
-              console.log(pattern.test(detail))
+        var regex = /(?:https?):\/\/(\w+:?\w*)?(\S+)(:\d+)?(\/|\/([\w#!:.?+=&%!\-\/]))?/;
+        if(regex .test(detail)) {
             window.open(
                 detail,
                 '_blank' // <- This is what makes it open in a new window.
               );
-          }
+        }
+    
     },[detail])
 
   return (

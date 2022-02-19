@@ -96,7 +96,7 @@ export const Snippet = async (req,res) => {
     const { id } = req.params;
     //we are checking if the id we have passed is valid or not
     try{
-        if(!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send('No Post with that id');
+        
         const snippet = await textBody.findById(id);
         const user = await User.find({_id : {$in: snippet.users}})
         res.json(user);
