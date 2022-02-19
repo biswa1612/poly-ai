@@ -101,7 +101,7 @@ This is the list of things you need to use the software and how to install them.
 
 - Url Page
 
-![Url page](https://user-images.githubusercontent.com/66401984/154605354-d017d267-e046-4f06-b1c2-0bcc4f532eaa.png)
+![url](https://user-images.githubusercontent.com/66401984/154786047-00e21e7d-ee65-4049-aa2e-d4af2085b171.png)
 
 - Fetch Text Page
 
